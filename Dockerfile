@@ -13,7 +13,7 @@
 # limitations under the License.
 
 FROM haproxy:1.6-alpine
-MAINTAINER Torchbox Sysadmin <sysadmin@torchbox.com>
+MAINTAINER Jan Walther <jan.walther@sva.de>
 
 RUN apk update && apk add bind-tools && rm -rf ~/.cache
 
